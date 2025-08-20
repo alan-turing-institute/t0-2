@@ -1,0 +1,15 @@
+[project]
+name = "t0-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "ipywidgets>=8.1.7",
+    "pandas>=2.3.1",
+    "pyjoules[nvidia]>=0.5.1",
+    "tiktoken>=0.11.0",
+    "torch>=2.8.0",
+    "transformers>=4.55.2",
+]
